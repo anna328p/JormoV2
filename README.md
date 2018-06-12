@@ -47,8 +47,8 @@ sudo apt-get install librocksdb-dev
 
 ##### Building
 
-- `git clone https://github.com/turtlecoin/turtlecoin`
-- `cd turtlecoin`
+- `git clone https://github.com/JormoCoin/JormoV2`
+- `cd JormoV2`
 - `mkdir build && cd $_`
 - `cmake ..` or `cmake -DBOOST_ROOT=<path_to_boost_install> ..` when building
   from a specific boost install. If you used brew to install boost, your path is most likely `/usr/local/include/boost.`
@@ -56,7 +56,7 @@ sudo apt-get install librocksdb-dev
 
 The binaries will be in `./src` after compilation is complete.
 
-Run `./src/TurtleCoind` to connect to the network and let it sync (it may take a while).
+Run `./build/src/TurtleCoind` to connect to the network and let it sync (it may take a while).
 
 #### Windows 10
 
